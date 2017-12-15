@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  resources :homes
+  root :to => 'homes#index'
+  resources :homes, :only => :index
+  resources :abouts, :only => :index
+  resources :educations, :only => :index
+  resources :experiences, :only => :index
+  resources :projects, :only => :index
 end
