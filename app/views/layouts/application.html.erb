@@ -6,8 +6,8 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
   </head>
 
   <body>
@@ -15,7 +15,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
+            <li><%= link_to "About", abouts_path %></li>
             <li><a href="#">Experience</a></li>
             <li><a href="#">Education</a></li>
             <li><a href="#">Projects</a></li>
