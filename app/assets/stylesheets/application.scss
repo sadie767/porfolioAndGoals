@@ -13,12 +13,13 @@
  *
  */
  // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
- @import "bootstrap-sprockets";
- @import "bootstrap";
- @import "homes.scss";
- @import "abouts.scss";
- @import "experiences.scss";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "homes.scss";
+@import "abouts.scss";
+@import "experiences.scss";
 @import "educations.scss";
+@import "projects.scss";
 
 
   html {
