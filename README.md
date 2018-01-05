@@ -25,11 +25,9 @@ _A site used to showcase my experience and talent for potential employers and cl
 * _JavaScript_
 
 ### Instructions
-1. _In the terminal, from the desktop, run $ git clone https://github.com/sadie767/porfolioAndGoals ._
-2. _In the terminal, $cd portfolioAndGoals_
-3. _Run $ bundle install to install the Gemfile._
-4. _Run $ rake db:setup to create the database and tables._
-5. _Run $ rails s , to view the site online at https://localhost:3000 ._
+1. _Open a web browser and type the url https://rmcintosh.herokuapp.com ._
+2. _Navigate the website._
+
 
 
 ### Support and contact details
