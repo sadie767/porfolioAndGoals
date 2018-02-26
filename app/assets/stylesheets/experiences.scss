@@ -1,8 +1,4 @@
 body#yoga {
-  background-image: url('https://i.pinimg.com/736x/47/3e/57/473e57bcc621a5b474e0b35db832434e.jpg');
-  background-repeat: no-repeat;
-  background-position: bottom 40px right 100px;
-  background-attachment: fixed;
   background-color: black;
 }
 
@@ -45,8 +41,9 @@ body#yoga {
   left: 150px;
 }
 
-.jumbotron {
-  margin-right: 45%;
+.border {
+  margin-right: 10%;
+  padding-left: 5%;
   background-color: black;
   border: 3px solid white;
 }
